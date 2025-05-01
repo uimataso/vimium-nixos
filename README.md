@@ -59,6 +59,8 @@ Then you can import this file to Vimium!
 
 ## Options
 
+Please read [Options Doc](./options-doc.md)
+
 ## TODO
 
 - Non Flake support?
