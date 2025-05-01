@@ -8,7 +8,7 @@ let
   options = import ./options.nix { inherit lib; };
 in
 {
-  inherit options;
+  options = options.options;
 
   config = lib.mkIf cfg.enable {
     home.file.${cfg.outputFilePath}.text = builtins.toJSON {
